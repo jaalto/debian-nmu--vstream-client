@@ -1,0 +1,60 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH VSTREAM-CLIENT 1 "May 16, 2008"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+vstream-client \- stream media from a TIVO
+.SH SYNOPSIS
+.B vstream-client
+.RI hostname [-l]
+.br
+.B vstream-client
+.RI hostname fsid [-o filename] [-a offset]
+.br
+.B vstream-client
+.RI tivo://<hostname>/[l]list
+.br
+.B vstream-client
+.RI tivo://<hostname>/fsid [-o filename] [-a offset]
+.br
+.SH DESCRIPTION
+This manual page documents briefly the
+.B vstream-client
+command.
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBvstream-client\fP is a program that streams media data from a 
+TIVO PVR.
+.SH OPTIONS
+.TP
+.B "", .../list
+List media on the TIVO
+.TP
+.B "-l", .../llist
+List media on the TIVO with extra details
+.SH SEE ALSO
+.BR mplayer (1),
+.BR mencoder (1).
+.br
+.SH AUTHOR
+vstream-client was written by Christopher R. Wingert, Gary S. Brown and
+<tridge@samba.org>
+
+.PP
+This manual page was written by Paul Hedderly <prh@debian.org>,
+for the Debian project (but may be used by others).

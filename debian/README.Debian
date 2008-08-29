@@ -1,0 +1,14 @@
+vstream-client for Debian
+-------------------------
+
+This package provides the vstream-client util, but it's major use is as a library for mplayer and mencoder.
+
+Until Debian's mplayer package is compiled with vstream-client installed, to use vstream-client with mplayer/mencoder
+all you need to do is recompile mplayer/mencoder with vstream-client installed.
+
+ie something like "aptitude install vstream-client; apt-src install -i mplayer"
+
+The source for this package can be retrieved using git:
+	git clone git://git.debian.org/git/<group>/<project>.git
+
+ -- Paul Hedderly <prh@debian.org>  Fri, 16 May 2008 00:28:14 +0100

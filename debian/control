@@ -1,0 +1,43 @@
+Source: vstream-client
+Priority: extra
+Maintainer: Paul Hedderly <prh@debian.org>
+Build-Depends: debhelper (>= 6), autotools-dev
+Standards-Version: 3.8.0
+Section: libs
+Homepage: http://armory.nicewarrior.org/projects/vstream-client/
+XS-VCS-GIT: git://git.debian.org/collab-maint/vstream-client.git
+
+Package: vstream-client
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libvstream-dev
+Replaces: libvstream-dev
+Description: A library and utility to fetch media streams from a TIVO
+ Vstream-client is a fork off of the vstream library from the
+ tivo-mplayer project. It has been stripped down to just the
+ client code, and includes an example client application. If
+ you have vserver installed on your Tivo (which most tivo hackers
+ do), then you can use this simple client to stream .ty files
+ from it. MPlayer includes support for this library. This
+ library can be used by MPlayer/MEncoder to watch/re-encode tivo
+ streams live over a network.
+
+Package: vstream-client-dev
+Section: libdevel
+Architecture: any
+Depends: 
+Conflicts: libvstream-dev
+Replaces: vstream-client (<= 1.2-4)
+Description: Development headers for vstream-client
+ Vstream-client is a fork off of the vstream library from the
+ tivo-mplayer project. It has been stripped down to just the
+ client code, and includes an example client application. If
+ you have vserver installed on your Tivo (which most tivo hackers
+ do), then you can use this simple client to stream .ty files
+ from it. MPlayer includes support for this library. This
+ library can be used by MPlayer/MEncoder to watch/re-encode tivo
+ streams live over a network.
+ .
+ This package contains the headers for development.
+

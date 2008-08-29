@@ -1,0 +1,38 @@
+vstream-client (1.2-6) unstable; urgency=low
+
+  * Replaces older version to (Closes: #496884)
+  * -dev does not need to depend on -client (Closes: #496884)
+
+ -- Paul Hedderly <prh@debian.org>  Fri, 29 Aug 2008 06:26:03 +0100
+
+vstream-client (1.2-5) unstable; urgency=low
+
+  * Non-urgent change slipped in - only the creation of a lintian unclean
+    empty dir.
+
+ -- Paul Hedderly <prh@debian.org>  Tue, 26 Aug 2008 20:35:25 +0100
+
+vstream-client (1.2-4) unstable; urgency=low
+
+  * Moved the static libary to the right package (-dev) DOH! (Closes #495891)
+
+ -- Paul Hedderly <prh@debian.org>  Tue, 26 Aug 2008 20:29:13 +0100
+
+vstream-client (1.2-3) unstable; urgency=low
+
+  * Added Conflicts and Replaces libvstream-dev (Closes: Bug#494615)
+
+ -- Paul Hedderly <prh@debian.org>  Wed, 20 Aug 2008 12:42:44 +0100
+
+vstream-client (1.2-2) unstable; urgency=low
+
+  * Removed watch.ex and make rules call makshlibs
+
+ -- Paul Hedderly <prh@debian.org>  Tue, 03 Jun 2008 22:19:01 +0100
+
+vstream-client (1.2-1) unstable; urgency=low
+
+  * Initial release (no ITP)
+
+ -- Paul Hedderly <prh@debian.org>  Fri, 16 May 2008 00:28:14 +0100
+
