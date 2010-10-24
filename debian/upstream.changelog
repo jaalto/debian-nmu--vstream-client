@@ -1,0 +1,17 @@
+------------------------------------------------------------------------
+r7 | dave@stilldesigning.com | 2007-11-20 20:08:30 +0200 (Tue, 20 Nov 2007) | 1 line
+
+revert changes to vstream.c and remove vstream_out function to maintain compatibility with existing 3rd part apps like MPlayer
+------------------------------------------------------------------------
+r4 | dave@stilldesigning.com | 2007-11-18 00:31:09 +0200 (Sun, 18 Nov 2007) | 1 line
+
+add support for stdout
+------------------------------------------------------------------------
+r2 | dave@stilldesigning.com | 2007-11-18 00:23:37 +0200 (Sun, 18 Nov 2007) | 1 line
+
+vstream-client 1.2
+------------------------------------------------------------------------
+r1 | (no author) | 2007-11-18 00:13:36 +0200 (Sun, 18 Nov 2007) | 1 line
+
+Initial directory structure.
+------------------------------------------------------------------------
