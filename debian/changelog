@@ -17,13 +17,15 @@ vstream-client (1.2-6.1) unstable; urgency=low
     - Point to GPL-2. Update layout. Remove URLs that no longer exist.
     - Update upstream homepage URL.
   * debian/rules
+    - (binary-arch): Update dh_installchangelogs to use $(CHANGELOG).
+    - (get-changelog): New. Download download upstream change history.
     - (clean): Fix bashism. Change rm -f *.so{,.1} to "rm -f *.so *.so.1".
       Patch thanks to Chanchai Junlouchai <neverlock@gmail.com>
       (important; Closes: #535423).
   * debian/watch
     - New file.
 
- -- Jari Aalto <jari.aalto@cante.net>  Fri, 22 Oct 2010 22:05:45 +0300
+ -- Jari Aalto <jari.aalto@cante.net>  Sun, 24 Oct 2010 10:37:25 +0300
 
 vstream-client (1.2-6) unstable; urgency=low
 
