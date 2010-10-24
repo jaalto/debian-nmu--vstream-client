@@ -46,6 +46,12 @@ endif
 
 #CFLAGS="$(CFLAGS)" LDFLAGS="-Wl,-z,defs"
 
+CHANGELOG = debian/upstream.changelog
+
+# Run manually
+get-changelog:
+	svn log http://vstream-client.googlecode.com/svn/trunk/ \
+	> $(CHANGELOG)
 
 build: build-stamp
 build-stamp:  config.status 
@@ -89,7 +95,7 @@ binary-indep: build install
 binary-arch: build install
 	dh_testdir
 	dh_testroot
-	dh_installchangelogs 
+	dh_installchangelogs $(CHANGELOG)
 	dh_installdocs
 	dh_installexamples
 	dh_install
