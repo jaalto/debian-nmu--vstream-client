@@ -1,7 +1,34 @@
+vstream-client (1.2-6.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/compat
+    - Update to 8.
+  * debian/chnagelog
+    - Fix off by 1 bug number in " -dev does not need...".
+  * debian/control
+    - (Build-Depends): Update to debhelper 8.
+    - (Homepage): Update to current URL.
+    - (Standards-Version): Update to 3.9.1.
+    - (Depends): Add ${misc:Depends}.
+    - (vstream-client::Section): Remove inherited field.
+    - (Vsc-*): Move info from 'XS-VCS-GIT'.
+    - (XS-VCS-GIT): Delete.
+  * debian/copyright
+    - Point to GPL-2. Update layout. Remove URLs that no longer exist.
+    - Update upstream homepage URL.
+  * debian/rules
+    - (clean): Fix bashism. Change rm -f *.so{,.1} to "rm -f *.so *.so.1".
+      Patch thanks to Chanchai Junlouchai <neverlock@gmail.com>
+      (important; Closes: #535423).
+  * debian/watch
+    - New file.
+
+ -- Jari Aalto <jari.aalto@cante.net>  Fri, 22 Oct 2010 22:05:45 +0300
+
 vstream-client (1.2-6) unstable; urgency=low
 
   * Replaces older version to (Closes: #496884)
-  * -dev does not need to depend on -client (Closes: #496884)
+  * -dev does not need to depend on -client (Closes: #496885)
 
  -- Paul Hedderly <prh@debian.org>  Fri, 29 Aug 2008 06:26:03 +0100
 
