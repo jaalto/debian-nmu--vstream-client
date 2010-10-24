@@ -64,7 +64,7 @@ clean:
 	# Add here commands to clean up after the build process.
 	#[ ! -f Makefile ] || $(MAKE) distclean
 	rm -f config.mak config.sub config.guess
-	rm -f *.so{,.1} *.o *.a *~ vstream-client vstream-client.exe
+	rm -f *.so *.so.1 *.o *.a *~ vstream-client vstream-client.exe
 
 
 	dh_clean 
