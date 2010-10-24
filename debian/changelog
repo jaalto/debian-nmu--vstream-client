@@ -22,10 +22,12 @@ vstream-client (1.2-6.1) unstable; urgency=low
     - (clean): Fix bashism. Change rm -f *.so{,.1} to "rm -f *.so *.so.1".
       Patch thanks to Chanchai Junlouchai <neverlock@gmail.com>
       (important; Closes: #535423).
+  * debian/upstream.changelog
+    - New file.
   * debian/watch
     - New file.
 
- -- Jari Aalto <jari.aalto@cante.net>  Sun, 24 Oct 2010 10:37:25 +0300
+ -- Jari Aalto <jari.aalto@cante.net>  Sun, 24 Oct 2010 10:39:20 +0300
 
 vstream-client (1.2-6) unstable; urgency=low
 
