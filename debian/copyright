@@ -1,22 +1,23 @@
-This package was debianized by Paul Hedderly <prh@debian.org> on
-Fri, 16 May 2008 00:28:14 +0100.
+This package was debianized by:
 
-It was downloaded from http://www.exit.com/Archives/FreeBSD/
-The original (though broken) site is http://armory.nicewarrior.org/projects/vstream-client/
-The source with Debian changes is stored in a git archive and can be fetched with:
-	git clone git://git.debian.org/git/<group>/<project>.git
+    Paul Hedderly <prh@debian.org> on
+    2008-05-16 00:28:14 +0100 Fri.
 
-Upstream Authors: 
+It was downloaded from
+
+    http://code.google.com/p/vstream-client
+
+Upstream Authors:
 
     Christopher R. Wingert <tivo@wingert.org>
     Gary S. Brown. <unknown>
-		<tridge@samba.org>
+    <tridge@samba.org>
 
-Copyright: 
+Copyright:
 
-    Copyright 2003 Christopher R. Wingert <tivo@wingert.org>
-    Copyright 1986 Gary S. Brown. <unknown>
-		Copyright 1996, 2001 <tridge@samba.org>
+    Copyright (C) 2003 Christopher R. Wingert <tivo@wingert.org>
+    Copyright (C) 1986 Gary S. Brown. <unknown>
+    Copyright (C) 1996, 2001 <tridge@samba.org>
 
 License:
 
@@ -24,22 +25,25 @@ License:
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
     (at your option) any later version.
- 
+
     This package is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
- 
-    You should have received a copy of the GNU General Public License
-    along with this package; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 
-		SOME parts are licensed under the GPL (version 1) and another (crc.c)
-		is licenced without any restriction.
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+                SOME parts are licensed under the GPL (version 1) and another (crc.c)
+                is licenced without any restriction.
 
 On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
+Public License can be found in "/usr/share/common-licenses/GPL-2".
 
-The Debian packaging is (C) 2008, Paul Hedderly <prh@debian.org> and
-is licensed under the GPL, see above.
+The Debian packaging is:
+
+    Copyright (C) 2008 Paul Hedderly <prh@debian.org>
+
+and is licensed under the GPL version 2 or any later version, see
+above.
 
