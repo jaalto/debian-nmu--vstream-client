@@ -20,7 +20,7 @@ CROSS= --build $(DEB_BUILD_GNU_TYPE)
 endif
 
 
-
+CC = gcc
 
 # shared library versions, option 1
 version=2.0.5
@@ -40,7 +40,7 @@ endif
 ifneq "$(wildcard /usr/share/misc/config.guess)" ""
 	cp -f /usr/share/misc/config.guess config.guess
 endif
-	CC=gcc ./configure --prefix=/usr
+	./configure --prefix=/usr
 	# THIS IS POINTLESS... BECAUSE THE UPSTREAM BUILD SYSTEM IS SIMPLE AND MESSY!
 
 #CFLAGS="$(CFLAGS)" LDFLAGS="-Wl,-z,defs"
