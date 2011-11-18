@@ -11,6 +11,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
     - (Homepage): Update to current URL.
     - (Standards-Version): Update to 3.9.2.
     - (Depends): Add ${misc:Depends}.
+    - (vstream-client::Description): Remove article (Lintian).
     - (vstream-client::Section): Remove inherited field.
     - (Vsc-*): Move info from 'XS-VCS-GIT'.
     - (XS-VCS-GIT): Delete.
@@ -32,7 +33,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
   * debian/watch
     - New file.
 
- -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:31:50 +0200
+ -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:34:29 +0200
 
 vstream-client (1.2-6) unstable; urgency=low
 

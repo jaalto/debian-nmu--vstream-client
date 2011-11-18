@@ -13,7 +13,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libvstream-dev
 Replaces: libvstream-dev
-Description: A library and utility to fetch media streams from a TIVO
+Description: library and utility to fetch media streams from a TIVO
  Vstream-client is a fork off of the vstream library from the
  tivo-mplayer project. It has been stripped down to just the
  client code, and includes an example client application. If
@@ -40,4 +40,3 @@ Description: Development headers for vstream-client
  streams live over a network.
  .
  This package contains the headers for development.
-
