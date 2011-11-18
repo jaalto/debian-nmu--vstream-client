@@ -9,7 +9,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
   * debian/control
     - (Build-Depends): Update to debhelper 8.
     - (Homepage): Update to current URL.
-    - (Standards-Version): Update to 3.9.1.
+    - (Standards-Version): Update to 3.9.2.
     - (Depends): Add ${misc:Depends}.
     - (vstream-client::Section): Remove inherited field.
     - (Vsc-*): Move info from 'XS-VCS-GIT'.
@@ -31,7 +31,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
   * debian/watch
     - New file.
 
- -- Jari Aalto <jari.aalto@cante.net>  Sun, 24 Oct 2010 10:54:03 +0300
+ -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:29:55 +0200
 
 vstream-client (1.2-6) unstable; urgency=low
 
