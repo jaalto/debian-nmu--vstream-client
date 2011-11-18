@@ -19,6 +19,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
     - Update upstream homepage URL.
   * debian/rules
     - (binary-arch): Update dh_installchangelogs to use $(CHANGELOG).
+    - (build-arch, build-indep): Add (Lintian).
     - (get-changelog): New. Download download upstream change history.
     - (clean): Fix bashism. Change rm -f *.so{,.1} to "rm -f *.so *.so.1".
       Patch thanks to Chanchai Junlouchai <neverlock@gmail.com>
@@ -31,7 +32,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
   * debian/watch
     - New file.
 
- -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:29:55 +0200
+ -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:31:50 +0200
 
 vstream-client (1.2-6) unstable; urgency=low
 

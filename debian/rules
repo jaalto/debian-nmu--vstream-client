@@ -53,7 +53,10 @@ get-changelog:
 	svn log http://vstream-client.googlecode.com/svn/trunk/ \
 	> $(CHANGELOG)
 
+build-arch: build-stamp
+build-indep: build-stamp
 build: build-stamp
+
 build-stamp:  config.status 
 	dh_testdir
 
