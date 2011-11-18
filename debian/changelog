@@ -19,6 +19,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
     - Point to GPL-2. Update layout. Remove URLs that no longer exist.
     - Update upstream homepage URL.
   * debian/rules
+    - Run configure with CC=gcc.
     - (binary-arch): Update dh_installchangelogs to use $(CHANGELOG).
     - (build-arch, build-indep): Add (Lintian).
     - (get-changelog): New. Download download upstream change history.
@@ -33,7 +34,7 @@ vstream-client (1.2-6.1) unstable; urgency=low
   * debian/watch
     - New file.
 
- -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:34:29 +0200
+ -- Jari Aalto <jari.aalto@cante.net>  Fri, 18 Nov 2011 21:45:33 +0200
 
 vstream-client (1.2-6) unstable; urgency=low
 
